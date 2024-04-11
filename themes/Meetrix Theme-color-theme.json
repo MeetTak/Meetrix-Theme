@@ -1,13 +1,6 @@
 {
 	"name": "Meetrix",
-	"displayName": "Meetrix Theme",
-	"description": "A dark theme for Visual Studio Code with a focus on readability and accessibility.",
-	"version": "1.0.0",
-	"publisher": "Meetrix",
-	"repository": {
-		"type": "git",
-		"url": 
-	}
+    "$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
 	  "activityBar.background": "#000000",
