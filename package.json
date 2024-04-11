@@ -1,0 +1,21 @@
+{
+  "name": "meetrix-theme",
+  "displayName": "Meetrix Theme",
+  "description": "Meetrix theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meetrix Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Meetrix Theme-color-theme.json"
+      }
+    ]
+  }
+}
