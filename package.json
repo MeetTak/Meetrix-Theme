@@ -1,32 +1,32 @@
 {
-  "name": "meetrix-theme",
-  "displayName": "Meetrix Theme",
-  "description": "Meetrix theme!",
-  "version": "0.0.1",
-  "publisher": "Meetrix",
-  "repository": {
+	"name": "meetrix-theme",
+	"displayName": "Meetrix Theme",
+	"description": "Meetrix theme!",
+	"version": "0.0.1",
+	"publisher": "Meetrix",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/MeetTak/Meetrix-Theme.git"
 	},
-	"keywords":[
+	"keywords": [
 		"theme",
 		"dark theme",
 		"meetrix",
-    "meetrix dark"
-  ],
-  "engines": {
-    "vscode": "^1.88.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Meetrix Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Meetrix Theme-color-theme.json"
-      }
-    ]
-  }
+		"meetrix dark"
+	],
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Meetrix Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Meetrix Theme-color-theme.json"
+			}
+		]
+	}
 }
