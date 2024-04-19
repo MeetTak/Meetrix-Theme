@@ -27,7 +27,7 @@
         "sideBar.background": "#0d1117",
         "sideBar.foreground": "#c9d1d9",
         "statusBar.background": "#14131e",
-        "statusBar.foreground": "#000000",
+        "statusBar.foreground": "#c9d1d9",
         "tab.activeBackground": "#0d1117",
         "tab.inactiveBackground": "#010409",
         "tab.inactiveForeground": "#8b949e",
