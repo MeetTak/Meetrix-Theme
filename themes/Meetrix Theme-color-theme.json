@@ -1,95 +1,96 @@
 {
-    "name": "Galactic Dark",
+    "name": "Meetrix",
     "type": "dark",
     "colors": {
-        // Editor Colors (Material Inspired)
-        "editor.background": "#263238",        // Dark grayish-blue background (similar to Material Dark)
-        "editor.foreground": "#ECEFF1",        // Light text for better contrast (Material style)
-        "editorCursor.foreground": "#FFCC00",  // Vibrant yellow cursor for visibility
-        "editor.lineHighlightBackground": "#37474F", // Slightly darker gray-blue for line highlight
-        "editor.selectionBackground": "#546E7A88",   // Light bluish-gray for selected text
-        "editor.selectionHighlightBackground": "#546E7A55",
-        "editor.wordHighlightBackground": "#546E7A33", // Soft highlight for matching words
-        "editor.findMatchBackground": "#FFEB3B55",    // Soft yellow highlight for search matches
-        "editor.findMatchHighlightBackground": "#FFEB3B33",
-        "editorIndentGuide.background": "#37474F",   // Subtle indent guides, slightly darker
-        "editorIndentGuide.activeBackground": "#546E7A",  // Material-inspired active indent guide
-        "editorBracketMatch.border": "#FFCC00",      // Yellow border for bracket matching
-        "editorGroup.border": "#37474F",             // Subtle dark borders for editor groups
+        // Editor Colors
+        "editor.background": "#0b0d17",        // Deep space black background
+        "editor.foreground": "#d0e6f7",        // Soft pastel blue for default text
+        "editorCursor.foreground": "#a5f3ff",  // Neon cyan cursor
+        "editor.lineHighlightBackground": "#101321", // Slightly brighter background for line highlight
+        "editor.selectionBackground": "#40497d77",   // Glowing purple for selected text
+        "editor.selectionHighlightBackground": "#40497d55",
+        "editorIndentGuide.background": "#2a2f47",   // Dim gray for indent guides
+        "editorIndentGuide.activeBackground": "#7088c2",  // Highlighted guide for active indentation
+        "editorBracketMatch.border": "#a5f3ff", // Cyan border for bracket matching
+        "editorGroup.border": "#40497d",        // Subtle purple borders around editor groups
 
         // Terminal Customization
-        "terminal.background": "#263238",            // Same background as the editor
-        "terminal.foreground": "#ECEFF1",            // Same light text for terminal
-        "terminalCursor.foreground": "#FFCC00",      // Vibrant yellow cursor in terminal
-        "terminal.selectionBackground": "#546E7A88", // Light bluish-gray for selected text in terminal
-        "terminal.ansiBlack": "#263238",             // Custom dark gray-black for ANSI color
-        "terminal.ansiBlue": "#42A5F5",              // Material Blue for ANSI blue
-        "terminal.ansiCyan": "#26C6DA",              // Cyan for ANSI cyan
-        "terminal.ansiGreen": "#66BB6A",             // Material green for success messages
-        "terminal.ansiMagenta": "#AB47BC",           // Material purple for ANSI magenta
-        "terminal.ansiRed": "#EF5350",               // Vibrant red for errors
-        "terminal.ansiYellow": "#FFCA28",            // Yellow for warnings
-        "terminal.ansiWhite": "#ECEFF1",             // Light white for terminal text
+        "terminal.background": "#0b0d17",       // Deep space black in terminal
+        "terminal.foreground": "#d0e6f7",       // Same soft pastel blue for terminal text
+        "terminalCursor.foreground": "#a5f3ff", // Neon cyan cursor in terminal
+        "terminal.selectionBackground": "#40497d77",  // Glowing purple for selected text in terminal
+        "terminal.ansiBlack": "#101321",        // Custom black for ANSI color
+        "terminal.ansiBlue": "#2a8bd4",         // Bright blue for terminal
+        "terminal.ansiCyan": "#61dafb",         // Neon cyan for ANSI cyan
+        "terminal.ansiGreen": "#82d882",        // Soft green for success messages
+        "terminal.ansiMagenta": "#a26db1",      // Neon purple for ANSI magenta
+        "terminal.ansiRed": "#e94f69",          // Vibrant red for errors
+        "terminal.ansiYellow": "#d3b359",       // Soft gold for warnings
+        "terminal.ansiWhite": "#d0e6f7",        // Pastel white for terminal text
 
-        // Sidebar Customization
-        "sideBar.background": "#263238",             // Same dark gray-blue as the editor
-        "sideBar.foreground": "#ECEFF1",             // Light text for file names
-        "sideBar.border": "#37474F",                 // Subtle border similar to Material Theme
-        "sideBarTitle.foreground": "#FFCC00",        // Vibrant yellow for sidebar title text
-        "sideBarSectionHeader.background": "#37474F",  // Slightly darker background for headers
-        "sideBarSectionHeader.foreground": "#FFCC00",  // Vibrant yellow for section headers
-        "list.hoverBackground": "#546E7A33",         // Light bluish-gray for hovered files/folders
-        "list.inactiveSelectionBackground": "#37474F",  // Selection for inactive items
-        "list.activeSelectionBackground": "#546E7A55",  // Soft bluish-gray for active selection
-        "list.activeSelectionForeground": "#ECEFF1", // Light text for selected files
-        "list.focusBackground": "#546E7A33",         // Focused item in the sidebar
+        // Sidebar Customization (File Explorer)
+        "sideBar.background": "#0d1023",        // Darker black with subtle stars
+        "sideBar.foreground": "#d0e6f7",        // Soft pastel blue for file names
+        "sideBar.border": "#40497d",            // Subtle purple borders around sidebar
+        "sideBarTitle.foreground": "#a5f3ff",   // Neon cyan for sidebar title text
+        "sideBarSectionHeader.background": "#101321",  // Slightly brighter background for section headers in sidebar
+        "sideBarSectionHeader.foreground": "#a5f3ff",  // Neon cyan for section headers
+        "list.hoverBackground": "#40497d55",    // Glowing purple for hovered files/folders
+        "list.inactiveSelectionBackground": "#20243b77",  // Soft selection for inactive sidebar items
+        "list.activeSelectionBackground": "#20243b99",    // Active selection background for files in sidebar
+        "list.activeSelectionForeground": "#d0e6f7",  // Foreground color for selected file
+        "list.focusBackground": "#40497d55",    // Glow for focused item in sidebar
 
-        // Activity Bar and Status Bar
-        "activityBar.background": "#263238",         // Dark gray-blue background for the activity bar
-        "activityBar.foreground": "#FFCC00",         // Vibrant yellow for activity bar icons
-        "activityBar.activeBorder": "#FFCC00",       // Yellow border for active icon
-        "activityBarBadge.background": "#FFCC00",    // Yellow badge for notifications
-        "activityBarBadge.foreground": "#263238",    // Dark text for the badge
-        "statusBar.background": "#37474F",           // Slightly darker gray-blue for the status bar
-        "statusBar.foreground": "#FFCC00",           // Yellow for status bar text
-        "statusBar.border": "#37474F"                // Border around the status bar
+        // Activity Bar (Icons on the far left)
+        "activityBar.background": "#0a0c19",    // Dark black for activity bar
+        "activityBar.foreground": "#a5f3ff",    // Neon cyan for activity bar icons
+        "activityBar.activeBorder": "#a5f3ff",  // Cyan border indicating active icon
+        "activityBarBadge.background": "#a5f3ff", // Neon cyan badge for notifications
+        "activityBarBadge.foreground": "#0b0d17", // Black text for badge content
+
+        // Status Bar
+        "statusBar.background": "#101321",      // Dark status bar background
+        "statusBar.foreground": "#a5f3ff",      // Neon cyan for status bar text
+        "statusBar.border": "#40497d",          // Subtle purple border on the status bar
+        "statusBar.debuggingBackground": "#e94f69", // Vibrant red for debugging
+        "statusBar.debuggingForeground": "#0b0d17"  // Black text for debugging status
     },
     "tokenColors": [
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#546E7A",   // Light gray-blue for comments
+                "foreground": "#7088c2", // Pastel green for comments
                 "fontStyle": "italic"
             }
         },
         {
             "scope": "keyword",
             "settings": {
-                "foreground": "#FFCA28"    // Yellow for keywords (Material-inspired)
+                "foreground": "#a26db1"  // Neon purple for keywords
             }
         },
         {
             "scope": "string",
             "settings": {
-                "foreground": "#66BB6A"    // Material green for strings
+                "foreground": "#82d882"  // Pastel green for strings
             }
         },
         {
             "scope": "variable",
             "settings": {
-                "foreground": "#42A5F5"    // Material blue for variables
+                "foreground": "#f7c6e0"  // Soft pink for variables
             }
         },
         {
             "scope": "function",
             "settings": {
-                "foreground": "#26C6DA"    // Cyan for functions
+                "foreground": "#61dafb"  // Neon cyan for functions
             }
         },
         {
             "scope": "constant",
             "settings": {
-                "foreground": "#EF5350"    // Red for constants
+                "foreground": "#f7c58b"  // Pastel gold for constants
             }
         }
     ]
