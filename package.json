@@ -28,5 +28,6 @@
 				"path": "./themes/Meetrix Theme-color-theme.json"
 			}
 		]
-	}
+	},
+	"icon": "resources/icon.jpg"
 }

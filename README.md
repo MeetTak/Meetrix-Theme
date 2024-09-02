@@ -2,11 +2,12 @@
 
 **Meetrix** is a modern dark theme for Visual Studio Code, inspired by the vastness of space combined with sleek material design principles. It offers a dark, elegant interface that reduces eye strain and helps you stay focused during long coding sessions.
 
-## 🎨 Features
-- **Dark-gray background** for a clean, minimalist look.
-- **Vibrant accents** in yellow, blue, and green for clear syntax highlighting and UI elements.
-- **Material-inspired editor** design for a cohesive and stylish interface.
-- **Custom styling** for the terminal, sidebar, activity bar, and more.
+## Features
+- **Dark-gray background:** Provides a clean, minimalist look that reduces eye strain.
+- **Vibrant accents:** Highlights important elements with colors like yellow, blue, and green.
+- **Custom Icon:** Added a sleek icon to enhance the theme's identity in the marketplace.
+- **Material Design Principles:** Inspired by sleek material design for a modern, professional coding experience.
+- **Compatibility:** Fully compatible with Visual Studio Code version 1.88.0 and above.
 
 ## 🛠 Installation
 1. Open the **Extensions** view in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac).
@@ -38,7 +39,7 @@ Below are the steps to follow to contribute to this project:
 
 4. **Add a reference(remote) to the original repository**.
    ```shell
-   git remote add upstream https://github.com/Meetrix-Theme./Meetrix-Theme.git
+   git remote add upstream https://github.com/MeetTak/Meetrix-Theme.git
    ```
 
 5. **Check the remotes for this repository**.
