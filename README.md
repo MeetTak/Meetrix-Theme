@@ -2,7 +2,7 @@
 
 **Meetrix** is a modern dark theme for Visual Studio Code, inspired by the vastness of space combined with sleek material design principles. It offers a dark, elegant interface that reduces eye strain and helps you stay focused during long coding sessions.
 
-## Features
+## 🎨 Features
 - **Dark-gray background:** Provides a clean, minimalist look that reduces eye strain.
 - **Vibrant accents:** Highlights important elements with colors like yellow, blue, and green.
 - **Custom Icon:** Added a sleek icon to enhance the theme's identity in the marketplace.
