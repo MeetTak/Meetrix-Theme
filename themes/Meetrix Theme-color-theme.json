@@ -49,7 +49,7 @@
         "activityBarBadge.foreground": "#0b0d17", // Black text for badge content
 
         // Status Bar
-        "statusBar.background": "#101321",      // Dark status bar background
+        "statusBar.background": "#d70ed0",      // Dark status bar background
         "statusBar.foreground": "#a5f3ff",      // Neon cyan for status bar text
         "statusBar.border": "#40497d",          // Subtle purple border on the status bar
         "statusBar.debuggingBackground": "#e94f69", // Vibrant red for debugging
